@@ -34,9 +34,22 @@
   b.	Добавления индикатора к каждому наблюдению, где отсутствовал признак.
 2.	Было создано - - новых признаков.
 3.	Редкие категории объединены в общую группу Rare.
-    До
+   
+    **MCC-код транзакции** (До / После)
+    ![image](https://user-images.githubusercontent.com/73111855/153935756-329842e4-a4a7-41e0-8ed8-904067efb71a.png)
+    ![image](https://user-images.githubusercontent.com/73111855/153936424-e7054be9-61da-4193-9afd-3afae3718220.png)
 
-    После
+    
+    **Тип транзакции**(До / После)
+    ![image](https://user-images.githubusercontent.com/73111855/153935903-a983e7ad-ccf1-47d0-98cb-0cfd0ad55db8.png)
+    ![image](https://user-images.githubusercontent.com/73111855/153936486-51e82135-5a9b-4349-a10e-0e295fffc08c.png)
+
+    
+    **Время проведения транзакции** (До / После)
+    ![image](https://user-images.githubusercontent.com/73111855/153935989-691c32e3-2ad1-42ff-b44f-940dc59b8fee.png)
+    ![image](https://user-images.githubusercontent.com/73111855/153936642-c53c2555-a1e4-4d67-9c06-84bf1ffa7a59.png)
+
+
 4.	Категориальные признаки были закодированы. Каждый признак был заменен на число, характеризующий частоту появления даного признака в тренировочных данных.
 5.	Произведена проверка наличие утечки данных на этапе обработки.
 

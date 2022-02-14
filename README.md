@@ -1,2 +1,2 @@
-# Gender-detection-
+# Gender-detection
 Предсказание пола клиента

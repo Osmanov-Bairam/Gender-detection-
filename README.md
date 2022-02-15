@@ -67,19 +67,19 @@
 
 ![Важность](https://user-images.githubusercontent.com/73111855/153937056-2b462adf-b495-4682-8c7c-3a57d347cad1.png)
 
- 'Mean_net_money_per_day'  = средняя сумма транзакции за все время одним клиентом.
+ 'Mean_net_money_per_transaction'  = средняя сумма транзакции за все время одним клиентом.
  
- 'Std_net_money_per_day' = среднее отклонение 'Mean_net_money_per_day' одним клиентом.
+ 'Std_net_money_per_transaction' = среднее отклонение 'Mean_net_money_per_day' одним клиентом.
  
- 'Mean_spend_money_per_day' = средняя отрицательная транзакция за все время одним клиентом.
+ 'Mean_spend_money_per_transaction' = средняя отрицательная транзакция за все время одним клиентом.
  
- 'Mean_earn_money_per_day' = средняя положительная транзакция за все время одним клиентом.
+ 'Mean_earn_money_per_transaction' = средняя положительная транзакция за все время одним клиентом.
  
- 'Money_spend_std_per_day' = среднее отклонение 'Mean_spend_money_per_day' одним клиентом.
+ 'Money_spend_std_per_transaction' = среднее отклонение 'Mean_spend_money_per_day' одним клиентом.
  
- 'Mean_earn_std_per_day' = среднее отклонение 'Mean_earn_money_per_day' одним клиентом.
+ 'Mean_earn_std_per_transaction' = среднее отклонение 'Mean_earn_money_per_day' одним клиентом.
  
- 'Money_earn_spend_ratio_per_day' = отношение средней положительной и отрицательной транзакции за все время одним клиентом.
+ 'Money_earn_spend_ratio_per_transaction' = отношение средней положительной и отрицательной транзакции за все время одним клиентом.
  
  'ALL_money_net' = общая сумма транзакций за все время одним клиентом.
  
@@ -99,12 +99,17 @@
 1 - женщины (предположение) / 
 0 - мужчины (предположение)
 
-1. 'Frequency_of_spending_all'. Мужчины склонны часто совершать транзакции течении дня.
-2. 'ALL_money_spend'. Женщины за все время потратили больше, чем мужчины.
-3. 'Money_spend_std_per_day'. Суммы денег, которые тратят мужчины более разнообразны, чем у женщин.
-4. 'Mean_earn_money_per_day'. Мужчины склонны получать деньги большей суммы, чем женщины. 
+1. *'Std_net_money_per_transaction'*. Тразакции женщин более хаотичны. Пример - сегодня могут получить 1000р, 
+а потратить 100р, завтра наоборот - 1000р потратить, а 100 получить.
+2. *'Frequency_of_spending_all'*. Мужчины склонны часто совершать транзакции в течении дня.
+3. *'ALL_money_spend'*. Мужчины за все время потратили больше, чем женщины.
+4. *'Mean_earn_money_per_transaction'*. Мужчины склонны получать деньги большей суммы за одну тразакцию, чем женщины.
+5. *'Mean_earn_std_per_transaction'*. Женщины получают склонны получать одинаковые суммы денег, чем мужчины.
+6. *'mcc_code'*. Женщины чаще совершают транзакции в популярных местах. Например - ТЦ.
 
-![image](https://user-images.githubusercontent.com/73111855/154002331-d3796d30-f4e1-4d15-9973-a6c31d8eba9c.png)
+
+![image](https://user-images.githubusercontent.com/73111855/154076367-33882d85-f77a-45a4-8212-d1bed327d1bf.png)
+
 
 
 ## **Результаты**
